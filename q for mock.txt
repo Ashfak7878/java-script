@@ -1,0 +1,67 @@
+1.what is the difference between syncrence and assyncrenence operation?
+
+ a) Synchronous code runs line by line and waits for each task to finish before moving to the next.
+ Asynchronous code does not wait; it continues executing while tasks like API calls or timeouts finish
+ in the background
+
+
+2.what is dom?
+ DOM (Document Object Model) represents an HTML document as a tree-like structure. It allows
+ JavaScript to access and manipulate HTML and CSS dynamically
+
+3.what are the data type in js?
+ Primitive: String, Number, Boolean, Null, Undefined, Symbol, BigInt. Non-Primitive: Object, Array,
+ Function.
+
+4.what is the event in js?
+ An event is an action that happens in the browser like a click, keypress, or scroll. Example:
+ addEventListener('click', fn)
+
+5.what are clousre in js?
+A closure is a function that remembers its outer scope even after the outer function has finished
+ executing.
+
+6.what is the differnce between map and forEach?
+ map() returns a new array; forEach() just loops and returns undefined.
+
+
+what is callBAck function in js?
+what is inheritance in js?
+what is the purpose try and catch in js?
+what is the purpose of add eventListner i js?
+what is the differnce between query selctor and query selctorall?
+what is differnce between null and undifined?
+what is  the difference between == and ===
+what is hoisting?
+what is "this" in js
+what are the differnce between functionin js
+what is the purpose of let var and const
+what is the difference between premetive and non premetive data type 
+what is the use of spread operator
+what is turnary operatorin js
+what is restparameter in js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

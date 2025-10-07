@@ -1,0 +1,1 @@
+the rest parameter syntax (...) allolws a function to accept an infinte a number of arguments as an array

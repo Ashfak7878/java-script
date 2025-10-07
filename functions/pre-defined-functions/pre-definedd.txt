@@ -1,0 +1,9 @@
+pre-defined function(built-in function/native methods )
+pre-defined functions are functions that are  already provided by js
+save time--that means no need to code from scratch
+incraese code readable
+optimize
+eg 1.math function
+2.string function
+3. date function
+
