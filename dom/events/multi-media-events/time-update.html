@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <audio controls id="audiotimeupdate">
+        <source src="./22.opus" type="audio/mpeg">
+    </audio>
+    <p id="timeoutput">current time 0</p>
+
+    <script>
+        const audiotimeupdate = document.getElementById("audiotimeupdate");
+        const timeoutput = document.getElementById("timeoutput");
+
+        audiotimeupdate.addEventListener('timeupdate', () => {
+            timeoutput.textContent = `current time : ${audiotimeupdate.currentTime.toFixed(2)}`;
+
+
+
+        })
+    </script>
+</body>
+
+</html>

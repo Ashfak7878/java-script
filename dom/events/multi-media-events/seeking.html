@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audio Seeking Example</title>
+</head>
+<body>
+
+  <h2>🎵 Audio Seeking Example</h2>
+
+  <audio id="myAudio" controls>
+    <source src="1.audio.opus" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <p id="status">Status: Not seeking</p>
+
+  <script>
+    const audio = document.getElementById("myAudio");
+    const status = document.getElementById("status");
+
+    // When user starts seeking
+    audio.addEventListener("seeking", () => {
+      status.textContent = "Status: User is seeking...";
+      console.log("User started seeking");
+    });
+
+    // When user finishes seeking
+    audio.addEventListener("seeked", () => {
+      status.textContent = "Status: Seeking finished!";
+      console.log("User finished seeking");
+    });
+  </script>
+
+</body>
+</ht
